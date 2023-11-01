@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 @available(iOS 13.0, *)
-open class Coordinator<Router: NavigationRouter>: ObservableObject {
+open class CoordinatorUI<Router: NavigationRouter>: ObservableObject {
     
     public let navigationController: UINavigationController
     public let startingRoute: Router?
