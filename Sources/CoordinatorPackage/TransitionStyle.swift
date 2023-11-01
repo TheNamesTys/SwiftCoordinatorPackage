@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum TransitionStyle {
+public enum NavigationTransitionStyle {
     case push
     case presentModally
     case presentFullscreen
