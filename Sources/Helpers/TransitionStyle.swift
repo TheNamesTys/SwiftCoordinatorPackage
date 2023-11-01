@@ -6,7 +6,8 @@
 //
 
 import Foundation
-enum TransitionStlye {
+
+public enum TransitionStyle {
     case push
     case presentModally
     case presentFullscreen

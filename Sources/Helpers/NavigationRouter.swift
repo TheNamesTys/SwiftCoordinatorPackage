@@ -8,11 +8,12 @@
 import Foundation
 import SwiftUI
 
+@available(iOS 13.0, *)
 public protocol NavigationRouter {
     
     associatedtype V: View
 
-    var transition: TransitionStlye { get }
+    var transition: TransitionStyle { get }
     
     /// Creates and returns a view of assosiated type
     ///
